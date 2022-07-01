@@ -1,38 +1,70 @@
 .App {
+  background-color: bisque;
+  margin: 20px 30px;
+  padding: 20px 30px;
   text-align: center;
+  min-height: 400px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a {
+  text-decoration: none;
+  margin: 5px;
+  padding: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a:hover {
+  background-color: rgb(215, 193, 159);
+  border-radius: 5px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+table {
+  margin: 2rem auto;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid;
+  padding: 1rem;
+}
+
+button {
+  width: 5rem;
+  margin: 0.5rem;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-field {
+  margin: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  width: 20rem;
+  padding: 0.2rem;
+}
+
+footer {
+  background-color: antiquewhite;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+
+/*  add book */
+
+form input {
+  padding: 6px;
+  margin: 10px;
+  /* width: 200px; */
+  border: 1px solid
 }
