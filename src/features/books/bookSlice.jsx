@@ -31,7 +31,6 @@ export const booksSlice = createSlice({
                 isExist[0].author = author
             }
         }
-
     },
 
 })
